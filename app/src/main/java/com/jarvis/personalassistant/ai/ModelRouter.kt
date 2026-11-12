@@ -294,9 +294,9 @@ class ModelRouter(
             }
             is ParsedDeviceCommand.GeneralAiQuery -> {
                 when (language) {
-                    AppLanguage.HINDI -> "[Offline Deterministic Rule Engine] आदेश प्राप्त हुआ: "${userPrompt.take(80)}"। (नोट: Local Gemma 3 / Qwen 3.5 LiteRT-LM मॉडल वेट्स बंडल नहीं हैं; क्लाउड AI के लिए Security & Permissions में मुफ़्त Gemini API कुंजी जोड़ें।)"
-                    AppLanguage.HINGLISH -> "[Offline Deterministic Rule Engine] Boss, aapka command "${userPrompt.take(80)}" note ho gaya hai. (Note: Local Gemma 3 / Qwen 3.5 LiteRT-LM weights is MVP mein bundled nahi hain; cloud AI reasoning ke liye Security & Permissions mein free Gemini API key dalein.)"
-                    AppLanguage.ENGLISH -> "[Offline Deterministic Rule Engine] Command received: "${userPrompt.take(80)}". (Note: Local Gemma 3 / Qwen 3.5 LiteRT-LM weights are not bundled in this MVP; enter a free Gemini API key in Security & Permissions for cloud LLM responses.)"
+                    AppLanguage.HINDI -> "[Offline Deterministic Rule Engine] आदेश प्राप्त हुआ: \"${userPrompt.take(80)}\"। (नोट: Local Gemma 3 / Qwen 3.5 LiteRT-LM मॉडल वेट्स बंडल नहीं हैं; क्लाउड AI के लिए Security & Permissions में मुफ़्त Gemini API कुंजी जोड़ें।)"
+                    AppLanguage.HINGLISH -> "[Offline Deterministic Rule Engine] Boss, aapka command \"${userPrompt.take(80)}\" note ho gaya hai. (Note: Local Gemma 3 / Qwen 3.5 LiteRT-LM weights is MVP mein bundled nahi hain; cloud AI reasoning ke liye Security & Permissions mein free Gemini API key dalein.)"
+                    AppLanguage.ENGLISH -> "[Offline Deterministic Rule Engine] Command received: \"${userPrompt.take(80)}\". (Note: Local Gemma 3 / Qwen 3.5 LiteRT-LM weights are not bundled in this MVP; enter a free Gemini API key in Security & Permissions for cloud LLM responses.)"
                 }
             }
         }
