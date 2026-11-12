@@ -1,0 +1,5 @@
+-keepattributes *Annotation*,InnerClasses,Signature
+-dontwarn kotlinx.serialization.**
+-keepclassmembers class kotlinx.serialization.json.** { *; }
+-keep class com.jarvis.personalassistant.ai.** { *; }
+-keep class com.jarvis.personalassistant.data.local.** { *; }

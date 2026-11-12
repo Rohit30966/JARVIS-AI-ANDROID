@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JARVIS AI</string>
+    <string name="notification_listener_label">JARVIS Notification Intelligence</string>
+    <string name="accessibility_service_label">JARVIS Assistive Navigation</string>
+    <string name="accessibility_service_description">User-authorized assistive screen reader and navigation helper for JARVIS AI. Never reads private passwords or acts without explicit command.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">जार्विस एआई (JARVIS AI)</string>
+    <string name="notification_listener_label">जार्विस नोटिफिकेशन इंटेलिजेंस</string>
+    <string name="accessibility_service_label">जार्विस असिस्टिव नेविगेशन</string>
+    <string name="accessibility_service_description">जार्विस एआई के लिए उपयोगकर्ता द्वारा अनुमोदित स्क्रीन सहायता सेवा। आपकी अनुमति के बिना कोई कार्य नहीं करता।</string>
+</resources>
